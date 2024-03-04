@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <form class="stopwatch-container">
+        <div class="countdown-container">
+          <input
+            type="number"
+            placeholder="00"
+            class="hours"
+            min="0"
+            max="99"
+          />
+          :
+          <input
+            type="number"
+            placeholder="00"
+            class="minutes"
+            min="0"
+            max="59"
+          />
+          :
+          <input
+            type="number"
+            placeholder="00"
+            class="seconds"
+            min="0"
+            max="59"
+          />
+        </div>
+        <div class="btn-container">
+          <button type="submit" class="btn start">Start</button>
+          <button class="btn reset">Reset</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
